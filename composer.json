@@ -1,0 +1,20 @@
+{
+    "name": "kotoyuuko\/ustb-elearning",
+    "description": "API for USTB Elearning System.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kotoyuuko",
+            "email": "kokoro@core.moe"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "paquettg/php-html-parser": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kotoyuuko\\UstbElearning\\": "src"
+        }
+    }
+}
